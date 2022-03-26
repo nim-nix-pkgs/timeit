@@ -11,6 +11,7 @@
   inputs.src-timeit-v0_1_8.ref   = "refs/tags/v0.1.8";
   inputs.src-timeit-v0_1_8.owner = "xflywind";
   inputs.src-timeit-v0_1_8.repo  = "timeit";
+  inputs.src-timeit-v0_1_8.dir   = "";
   inputs.src-timeit-v0_1_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
