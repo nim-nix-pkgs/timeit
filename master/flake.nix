@@ -11,7 +11,6 @@
   inputs.src-timeit-master.ref   = "refs/heads/master";
   inputs.src-timeit-master.owner = "xflywind";
   inputs.src-timeit-master.repo  = "timeit";
-  inputs.src-timeit-master.dir   = "";
   inputs.src-timeit-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
